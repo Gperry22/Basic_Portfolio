@@ -1,20 +1,17 @@
-
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
-/*index1*/
+/*index Container Main Syles*/
+/*index Container Main Syles*/
+/*index Container1 Syles*/
+/*index4 Navigation Menu*/
+/*index5 Container2 Styles*/
+/*index6 Container 3 Styles*/
+/*index7 Footer Styles*/
+/*index8 Portfolio Styles*/
+/*index9 Contact Messages*/
+/*index10 Clearfix*/
 
 
-/*index1*/
+
+/*index1 HTML Syles*/
 *{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,6 +22,7 @@ body {
   background-image: url("../../assets/images/symphony.png");
   background-repeat: repeat;
   background-attachment: scroll;
+  margin: 0px;
 }
 
 h1,h2,h3 {
@@ -42,13 +40,24 @@ a:hover
   color: green;
 }
 
-/*index2*/
-#container {
+/*index Container Main Syles*/
+#containermain {
+  height: 80px;
+  width: 0 auto;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/*index3 Container1 Syles*/
+.container1{
   width: 960px;
   margin: 0 auto;
 }
 
-/*index3*/
+/*index4 Navigation Menu*/
 .nav {
   height: 80px;
   width: 0 auto;
@@ -57,8 +66,8 @@ a:hover
   border-color: #cccccc;
   background-color: #ffffff;
   margin-bottom: 20px;
-
 }
+
 
 .nav h1 {
   color: white;
@@ -76,11 +85,11 @@ a:hover
   height: 80px;
   text-align: center;
   padding-top: 30px;
-  margin-left: 500px;
+  margin-left: 520px;
   float: left;
 }
 
-/*index4*/
+/*index5 Container2 Styles*/
 
 .container2 {
   height: 600px;
@@ -119,7 +128,7 @@ a:hover
   float: left;
 }
 
-/*index4*/
+/*index6 Container 3 Styles*/
 .container3 {
   height: 160px;
   width: 270px;
@@ -153,23 +162,26 @@ width: 60px;
   width: 71%;
 }
 
-/*index5*/
+/*index Footer Styles*/
 .footer {
+
     height: 80px;
-    width: 0 auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     float: left;
 }
 
 .footertop {
   height: 80px;
-  width: 960px;
+  width: 100%;
   padding-top: 10px;
   background-color: #4aaaa5;
 }
 
 .footerbottom {
   height: 70px;
-  width: 960px;
+  width: 100%;
   background-color: #666666;
   text-align: center;
   padding-top: 20px;
@@ -179,7 +191,7 @@ width: 60px;
   color: white;
 }
 
-/*index6*/
+/*index Portfolio Styles*/
 .portfolioimages{
   height: 500px;
   width: 630px;
@@ -211,7 +223,7 @@ figcaption {
   left: 0;
 }
 
-/*index7*/
+/*index Contact Messages*/
 .contact_boxes{
   height: 500px;
   width: 630px;
@@ -252,7 +264,7 @@ figcaption {
   color: white;
 }
 
-
+/*index Clearfix*/
 .clearfix::after {
 content: "";
 display: block;
