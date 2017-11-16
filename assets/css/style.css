@@ -1,18 +1,26 @@
 /*index Container Main Syles*/
+
 /*index Container Main Syles*/
+
 /*index Container1 Syles*/
+
 /*index4 Navigation Menu*/
+
 /*index5 Container2 Styles*/
+
 /*index6 Container 3 Styles*/
+
 /*index7 Footer Styles*/
+
 /*index8 Portfolio Styles*/
+
 /*index9 Contact Messages*/
+
 /*index10 Clearfix*/
 
-
-
 /*index1 HTML Syles*/
-*{
+
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -25,7 +33,7 @@ body {
   margin: 0px;
 }
 
-h1,h2,h3 {
+h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 24px;
 }
@@ -35,12 +43,12 @@ p {
   color: #777777;
 }
 
-a:hover
-{
+a:hover {
   color: green;
 }
 
 /*index Container Main Syles*/
+
 #containermain {
   height: 80px;
   width: 0 auto;
@@ -52,12 +60,14 @@ a:hover
 }
 
 /*index3 Container1 Syles*/
-.container1{
+
+.container1 {
   width: 960px;
   margin: 0 auto;
 }
 
 /*index4 Navigation Menu*/
+
 .nav {
   height: 80px;
   width: 0 auto;
@@ -68,7 +78,6 @@ a:hover
   margin-bottom: 20px;
 }
 
-
 .nav h1 {
   color: white;
   background-color: #4aaaa5;
@@ -78,7 +87,6 @@ a:hover
   padding-top: 30px;
   float: left;
 }
-
 
 .nav p {
   color: black;
@@ -114,7 +122,7 @@ a:hover
   margin-bottom: 5px;
 }
 
-.profile   {
+.profile {
   height: 500px;
   width: 630px;
   margin: 0 auto;
@@ -129,6 +137,7 @@ a:hover
 }
 
 /*index6 Container 3 Styles*/
+
 .container3 {
   height: 160px;
   width: 270px;
@@ -152,24 +161,24 @@ a:hover
   margin-bottom: 20px;
 }
 
-.connect_icons img{
-height: 60px;
-width: 60px;
+.connect_icons img {
+  height: 60px;
+  width: 60px;
 }
 
 .connect_icons {
-  margin:auto;
+  margin: auto;
   width: 71%;
 }
 
 /*index Footer Styles*/
-.footer {
 
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    float: left;
+.footer {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  float: left;
 }
 
 .footertop {
@@ -192,7 +201,8 @@ width: 60px;
 }
 
 /*index Portfolio Styles*/
-.portfolioimages{
+
+.portfolioimages {
   height: 500px;
   width: 630px;
   padding: 15px;
@@ -224,7 +234,8 @@ figcaption {
 }
 
 /*index Contact Messages*/
-.contact_boxes{
+
+.contact_boxes {
   height: 500px;
   width: 630px;
   margin: 0 auto;
@@ -232,14 +243,14 @@ figcaption {
   overflow: auto;
 }
 
-.contact_boxes input{
+.contact_boxes input {
   height: 40px;
   width: 610px;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
-.contact_boxes textarea{
+.contact_boxes textarea {
   width: 610px;
   font-size: 15px;
   margin-bottom: 20px;
@@ -265,8 +276,9 @@ figcaption {
 }
 
 /*index Clearfix*/
+
 .clearfix::after {
-content: "";
-display: block;
-clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
